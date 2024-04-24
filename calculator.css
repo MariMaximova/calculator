@@ -1,0 +1,48 @@
+
+body {
+    display:flex ;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 156, 164);
+}
+.container{
+    position: relative;
+    padding: 20px 20px 20px;
+    max-width: 275px;
+    border-radius: 15px;
+    border: rgb(0,0,0);
+    box-shadow: 0 5px 10px rgb(0,0,0);
+    background-color: rgb(244, 240, 1);
+    margin: 45px;
+}
+
+input {
+    background-color: rgb(255, 254, 251);
+    font-size: 40px;
+    outline: none;
+    text-align: right;
+    border-radius: 8px;
+    border-width: 2px 2px 5px 3px;
+    border-color: black;
+    height: 60px;
+    width: 98%;
+    margin-bottom: 10px;
+}
+.buttons {
+    display: grid;
+    grid-gap:12px;
+    grid-template-columns: repeat(4, 1fr)
+}
+.buttons button{
+    background-color: hotpink;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px 2px 5px 3px;
+}
+.no {
+    background-color: blueviolet;
+}
